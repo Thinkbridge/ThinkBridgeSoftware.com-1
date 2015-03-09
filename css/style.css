@@ -157,6 +157,14 @@ img {
 /*	Basic Elements
 /* ---------------------------------------------------------------------- */
 
+.sep {
+    width: 60px;
+    height: 3px;
+    background: #ffa341;
+    margin: 24px auto;
+}
+
+
 body {
 	background-color: #fff;
 	color: #828282;
@@ -236,7 +244,9 @@ body.boxed { background-attachment: fixed; }
 	h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 15px;
 		color: #373737;
-		font-family: "Open Sans";
+        font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 500;
+		/*font-family: "Open Sans";*/
 		line-height: 1.15;
 	}
 
@@ -288,6 +298,8 @@ body.boxed { background-attachment: fixed; }
 	.scribble .dropcapcircle + h6 { font-weight: 600; }
 
 	p {
+
+        font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		margin: 0 0 1.2em;
 		padding: 0;
 		line-height: 1.7em;
@@ -1095,8 +1107,8 @@ body.boxed { background-attachment: fixed; }
 				}
 
 				.navigation a {
-					font-weight: 600;
-					font-family: 'Open Sans', Arial, sans-serif;
+                    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                    font-weight: 400;
 				}
 
 				.scribble .navigation a {
@@ -1357,14 +1369,12 @@ body.boxed { background-attachment: fixed; }
 #content { margin-bottom: 90px; }
 
 	.slogan {
-		display: block;
 		margin: 0 10px 45px 10px;
 		padding: 0;
 		text-align: center;
-		font-weight: 300;
-		font-family: 'Open Sans', Arial, sans-serif;
+        font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 300;
 		line-height: 1.25;
-		zoom: 1;
 	}
 
 	.ie7 .slogan,
